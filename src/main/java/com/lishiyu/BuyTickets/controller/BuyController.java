@@ -1,5 +1,8 @@
-package org.ai8.buytickets;
+package com.lishiyu.BuyTickets.controller;
 
+import com.lishiyu.BuyTickets.repository.TicketRepository;
+import com.lishiyu.BuyTickets.repository.UserRepository;
+import com.lishiyu.BuyTickets.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

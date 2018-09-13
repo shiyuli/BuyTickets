@@ -1,4 +1,4 @@
-package org.ai8.buytickets;
+package com.lishiyu.BuyTickets.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

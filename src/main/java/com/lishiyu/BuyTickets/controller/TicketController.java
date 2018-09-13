@@ -1,22 +1,19 @@
-package org.ai8.buytickets;
+package com.lishiyu.BuyTickets.controller;
 
-import com.mysql.jdbc.interceptors.SessionAssociationInterceptor;
+import com.lishiyu.BuyTickets.repository.TicketRepository;
+import com.lishiyu.BuyTickets.repository.UserRepository;
+import com.lishiyu.BuyTickets.entity.Ticket;
+import com.lishiyu.BuyTickets.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.hibernate4.SessionHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttributes;
-import org.springframework.web.bind.support.SessionStatus;
 
 import javax.persistence.EntityManager;
-import javax.persistence.Query;
 import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.List;
 
 @Controller

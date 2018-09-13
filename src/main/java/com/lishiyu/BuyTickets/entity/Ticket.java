@@ -1,13 +1,10 @@
-package org.ai8.buytickets;
+package com.lishiyu.BuyTickets.entity;
 
-
-import org.springframework.data.jpa.repository.Query;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.math.BigDecimal;
-import java.util.List;
 
 @Entity
 public class Ticket {
